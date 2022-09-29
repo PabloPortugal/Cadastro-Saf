@@ -1,9 +1,9 @@
 const COLORS = {
-    vermelhoClaro: '#E49E9E',
-    vermelhoClaro2: '#D96B6B',
-    vermelhoPrincipal: '#AA1E1E',
-    vermelhoEscuro2: '#920707',
-    vermelhoEscuro: '#803434',
+    offWhite: '#FEFCFB',
+    azulClaro: '#1282A2',
+    azulPrincipal: '#034078',
+    azulSecundario: '#001F54',
+    azulEscuro: '#0A1128',
     branco:'#fffffa',
     preto:'#000001',
 }

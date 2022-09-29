@@ -11,7 +11,7 @@ const Input = ({label, iconName, error, onFocus = () => {}, ...props}) => {
       <Text style={estilos.inputLabel}>{label}</Text>
 
         {/* Quando adicionamos [] podemos colocar mais de uma classe */}
-      <View style={[estilos.inputContainer , {borderColor: error ? COLORS.red : COLORS.darkBlue}]}>
+      <View style={[estilos.inputContainer , {borderColor: error ? COLORS.offWhite : COLORS.azulPrincipal}]}>
         <Icon name={iconName} style={estilos.icon}/>
         <TextInput
           style={estilos.TextInput}
@@ -42,16 +42,17 @@ const estilos = StyleSheet.create({
     height: 55,
     backgroundColor: COLORS.light,
     flexDirection: 'row',
-    borderWidth: 0.5,
+    borderWidth: 1,
     paddingHorizontal: 15,
     alignItems: 'center',
+    borderRadius: 20
   },
   TextInput: {
     flex: 1,
-    color: COLORS.darkBlue,
+    color: COLORS.azulPrincipal,
   },
   icon: {
-    color: COLORS.darkBlue,
+    color: COLORS.azulPrincipal,
     marginRight: 10,
     fontSize: 22,
   }
