@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
         borderColor: COLORS.azulEscuro,
     },
     texto:{
-      color:COLORS.offWhite
+      color:COLORS.offWhite,
+      fontSize: 20
     }
 })

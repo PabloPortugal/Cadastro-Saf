@@ -9,8 +9,8 @@ const Cadastro = () => {
     return (
         <Layout>
             <View style={estilos.viewForm}>
-                <Input placeholder="Nome paciente *" iconName="account" />
-                <Input placeholder="Telefone paciente *" iconName="phone" />
+                <Input placeholder="Nome paciente *" iconName="account"/>
+                <Input placeholder="Telefone paciente *" iconName="phone"/>
                 <Input placeholder="Celular paciente *" iconName="cellphone" />
                 <Input placeholder="E-mail paciente *" iconName="email" />
                 <Input placeholder="Nome responsável" iconName="account-multiple" />
@@ -30,15 +30,6 @@ const estilos = StyleSheet.create({
     viewForm: {
         flex: 1,
     },
-    textTitle: {
-        display: "flex",
-        justifyContent: "center",
-        textAlign: "center",
-        alignItems: "center",
-        color: COLORS.vermelhoPrincipal,
-        fontWeight: "bold",
-        fontSize: 25,
-    },
     imagemFundo: {
         justifyContent: "flex-end",
         flex: 3,
@@ -56,7 +47,9 @@ const estilos = StyleSheet.create({
     },
     login:{
         alignItems:"center",
-        textAlign: "center"
+        textAlign: "center",
+        fontSize: 16,
+        color: COLORS.offWhite
     }
 });
 

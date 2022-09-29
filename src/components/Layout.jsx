@@ -22,6 +22,7 @@ const estilos = StyleSheet.create({
         flex: 1,
         alignContent: "center",
         height: "100%",
+        backgroundColor: COLORS.azulEscuro,
     },
     imagemFundo: {
         justifyContent: "center",
@@ -38,11 +39,21 @@ const estilos = StyleSheet.create({
         borderTopRightRadius: 25,
         paddingStart: "5%",
         paddingEnd: "5%",
-        paddingBottom: 50
+        paddingBottom: 30,
+        
     },
     text: {
         alignItems: "center",
         textAlign: "center",
         justifyContent: "center",
+    },
+    textTitle: {
+        display: "flex",
+        justifyContent: "center",
+        textAlign: "center",
+        alignItems: "center",
+        color: COLORS.offWhite,
+        fontWeight: "bold",
+        fontSize: 25,
     },
 });

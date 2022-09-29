@@ -30,13 +30,14 @@ const Input = ({label, iconName, error, onFocus = () => {}, ...props}) => {
 
 const estilos = StyleSheet.create({
   formContainer: {
-    marginBottom: 20,
+    marginBottom: 40,
     flex: 1,
   },
   inputLabel: {
     marginVertical: 5,
     fontSize: 15,
     color: COLORS.gray,
+
   },
   inputContainer: {
     height: 55,
@@ -49,7 +50,8 @@ const estilos = StyleSheet.create({
   },
   TextInput: {
     flex: 1,
-    color: COLORS.azulPrincipal,
+    color: COLORS.offWhite,
+    
   },
   icon: {
     color: COLORS.azulPrincipal,
