@@ -30,18 +30,19 @@ const Input = ({label, iconName, error, onFocus = () => {}, ...props}) => {
 
 const estilos = StyleSheet.create({
   formContainer: {
-    marginBottom: 40,
-    flex: 1,
+    marginBottom:-30 ,
+    top:80
+    
   },
   inputLabel: {
-    marginVertical: 5,
+    marginVertical:5,
     fontSize: 15,
     color: COLORS.gray,
 
   },
   inputContainer: {
-    height: 55,
-    backgroundColor: COLORS.light,
+    height: 40,
+    backgroundColor: "white",
     flexDirection: 'row',
     borderWidth: 1,
     paddingHorizontal: 15,
@@ -54,7 +55,6 @@ const estilos = StyleSheet.create({
     
   },
   icon: {
-    color: COLORS.azulPrincipal,
     marginRight: 10,
     fontSize: 22,
   }

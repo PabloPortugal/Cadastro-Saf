@@ -7,12 +7,14 @@ export default function Layout(props) {
 
     return (
         <SafeAreaView style={estilos.container}>
-            <View style={estilos.imagemFundo}>
+            <ImageBackground style={estilos.imagemFundo} source={require('../assets/Fundo.png')}>
                 <View style={estilos.text}>
                     <Text style={estilos.textTitle}>Cadastro</Text>
+                    {props.children}
                 </View>
-            </View>
-            <View style={estilos.containerForm}>{props.children}</View>
+
+            </ImageBackground>
+            
         </SafeAreaView>
     );
 }
@@ -22,12 +24,12 @@ const estilos = StyleSheet.create({
         flex: 1,
         alignContent: "center",
         height: "100%",
-        backgroundColor: COLORS.azulEscuro,
+       
     },
     imagemFundo: {
         justifyContent: "center",
         flex: 3,
-        backgroundColor: COLORS.azulEscuro,
+        backgroundColor: 'yellow',
         alignItems: "center",
     },
     containerForm: {
@@ -52,8 +54,9 @@ const estilos = StyleSheet.create({
         justifyContent: "center",
         textAlign: "center",
         alignItems: "center",
-        color: COLORS.offWhite,
+        color: COLORS.preto,
         fontWeight: "bold",
         fontSize: 25,
+        top:40
     },
 });

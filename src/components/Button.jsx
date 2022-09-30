@@ -15,15 +15,16 @@ export default Button
 
 const styles = StyleSheet.create({
     button: {
-        height: 55,
-        width:"100%",
-        backgroundColor: COLORS.azulEscuro,
+        height: 45,
+        width:"80%",
+        backgroundColor: "#7948A0",
         justifyContent: 'center',
         alignItems: "center",
         marginVertical: 20,
         borderWidth: .5,
         borderRadius: 10,
-        borderColor: COLORS.azulEscuro,
+        borderColor: "#7948A0",
+        top:90
     },
     texto:{
       color:COLORS.offWhite,
